@@ -41,9 +41,9 @@ float calibration_factor = 420.0;
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // ================= NETWORK CONFIGURATION =================
-const char* ssid      = "Mich";
-const char* password  = "00000000";
-const char* serverApi = "http://192.168.43.103:3000/api/esp/scan";
+const char* ssid      = "YourWifiName";
+const char* password  = "YourWifiPassword";
+const char* serverApi = "http://YourIPAddress:3000/api/esp/scan";
 
 const byte targetBlock = 4;
 
